@@ -1,0 +1,176 @@
+
+.container_price {
+    height: 50vh;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    width: 250px;
+    height: 450px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(231,242,255,1) 100%);
+    border-radius: 15px;
+    
+}
+
+.header {
+    height: 14%;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding: 0 20px;
+}
+
+.header > p {
+    padding: 5px 0;
+    margin: 0;
+    font-size:19px;
+}
+
+hr {
+    border: 1px solid white;
+    margin: 0;
+}
+
+.h_basic {
+    background: linear-gradient(45deg, rgba(44,255,68,1) 18%, rgba(43,121,152,1) 100%);
+}
+
+.h_standard {
+    background: linear-gradient(135deg, rgba(43,121,152,1) 10%, rgba(36,225,243,1) 50%, rgba(248,255,162,1) 100%);
+}
+
+.h_premium {
+    background: linear-gradient(45deg, rgba(248,255,162,1) 0%, rgba(252,176,69,1) 19%, rgba(253,29,29,1) 100%);
+}
+
+.price {
+    height: 110px;
+}
+
+.price > p {
+    font-family: "Rubik Mono One", monospace;
+    font-size:47px;
+    padding: 15px 5px 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 0;
+}
+
+.p_basic > p {
+    justify-content: center;
+}
+
+.p_standard > p {
+    font-size: 50px;
+}
+
+.price span {
+    font-size: 10px;
+}
+
+.body {
+    display: flex;
+    padding: 0 0 0 25px;
+    height: 180px;
+    font-weight: 500;
+}
+
+.icon {
+    width: 22.4px;
+    height: 22.4px;
+    border-radius: 50%;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.l_basic_d, .l_standard_d, .l_premium_d {
+    padding: 0;
+} 
+
+.l_basic_d > li, .l_standard_d > li, .l_premium_d > li {
+    display: flex;
+    align-items: start;
+    padding-bottom: 5px;
+}
+
+.b_ic {
+    background: linear-gradient(45deg, rgba(44,255,68,1) 18%, rgba(43,121,152,1) 100%);
+}
+.s_ic {
+    background: linear-gradient(135deg, rgba(43,121,152,1) 10%, rgba(36,225,243,1) 50%, rgba(248,255,162,1) 100%);
+}
+.p_ic {
+    background: linear-gradient(45deg, rgba(248,255,162,1) 0%, rgba(252,176,69,1) 19%, rgba(253,29,29,1) 100%);
+}
+
+.bottom {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button_div > button {
+    width: 130px;
+    height: 45px;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: black;
+    
+}
+
+.b_buy > button {
+    background: linear-gradient(45deg, rgba(44,255,68,1) 18%, rgba(43,121,152,1) 100%);
+}
+
+.s_buy > button {
+    background: linear-gradient(135deg, rgba(43,121,152,1) 10%, rgba(36,225,243,1) 50%, rgba(248,255,162,1) 100%);
+}
+
+.p_buy > button {
+    background: linear-gradient(45deg, rgba(248,255,162,1) 0%, rgba(252,176,69,1) 19%, rgba(253,29,29,1) 100%);
+}
+
+.b_buy > button:hover {
+    background: linear-gradient(45deg, rgba(44,255,68,0.4) 18%, rgba(43,121,152,0.4) 100%);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.s_buy > button:hover {
+    background: linear-gradient(135deg, rgba(43,121,152,0.4) 10%, rgba(36,225,243,0.4) 50%, rgba(248,255,162,0.4) 100%);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.p_buy > button:hover {
+    background: linear-gradient(45deg, rgba(248,255,162,0.4) 0%, rgba(252,176,69,0.4) 19%, rgba(253,29,29,0.4) 100%);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+#footer {
+    height: 300px;
+}
+
+@media (max-width: 480px) {
+
+    .container {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 20px;
+    }
+ 
+}
